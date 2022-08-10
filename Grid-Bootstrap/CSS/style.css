@@ -1,0 +1,51 @@
+:root {
+    --purle-100: hsl(280, 100%, 100%);
+    --purle-90: hsl(280, 100%, 90%);
+    --purle-80: hsl(280, 100%, 80%);
+    --purle-70: hsl(280, 100%, 70%);
+    --purle-60: hsl(280, 100%, 60%);
+    --purle-50: hsl(280, 100%, 50%);
+    --purle-40: hsl(280, 100%, 40%);
+    --purle-30: hsl(280, 100%, 30%);
+    --purle-20: hsl(280, 100%, 20%);
+    --purle-10: hsl(280, 100%, 10%);
+}
+
+.glass {
+    background: rgba(189, 16, 224, 0.05);
+    backdrop-filter: blur(12.5px);
+    -webkit-backdrop-filter: blur(12.5px);
+    border-radius: 10px;
+}
+
+.text-color {
+    color: var(--purle-20);
+
+}
+
+.tittle-color {
+    color: var(--purle-30);
+}
+
+.border-color {
+    border-color: var(--purle-80);
+}
+
+.btn-color {
+    color: var(--purle-30);
+    border-color: var(--purle-40);
+    transition: .5s;
+}
+
+.btn-color:hover {
+    color: var(--purle-100);
+    background-color: var(--purle-40);
+    border-color: var(--purle-40);
+}
+
+.sub-line {
+    width: 18.75rem;
+    height: 5px;
+    background-color: var(--purle-30);
+    border-radius: 10px;
+}
